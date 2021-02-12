@@ -144,8 +144,8 @@
     <child link="left_wheel"/>
     <parent link="chassis"/>
     <axis xyz="0 1 0" rpy="0 0 0"/>
-    <limit effort="100" velocity="100"/>
-    <joint_properties damping="0.0" friction="1.0"/>
+    <!--limit effort="100" velocity="100"/>
+    <joint_properties damping="0.0" friction="1.0"/-->
   </joint>
 
 
@@ -154,8 +154,8 @@
     <child link="right_wheel"/>
     <parent link="chassis"/>
     <axis xyz="0 1 0" rpy="0 0 0"/>
-    <limit effort="100" velocity="100"/>
-    <joint_properties damping="0.0" friction="1.0"/>
+    <!--limit effort="100" velocity="100"/>
+    <joint_properties damping="0.0" friction="1.0"/-->
   </joint>
 
 
@@ -164,8 +164,8 @@
     <child link="left_back_wheel"/>
     <parent link="chassis"/>
     <axis xyz="0 1 0" rpy="0 0 0"/>
-    <limit effort="100" velocity="100"/>
-    <joint_properties damping="0.0" friction="1.0"/>
+    <!--limit effort="100" velocity="100"/>
+    <joint_properties damping="0.0" friction="1.0"/-->
   </joint>
 
 
@@ -174,8 +174,8 @@
     <child link="right_back_wheel"/>
     <parent link="chassis"/>
     <axis xyz="0 1 0" rpy="0 0 0"/>
-    <limit effort="100" velocity="100"/>
-    <joint_properties damping="0.0" friction="1.0"/>
+    <!--limit effort="100" velocity="100"/>
+    <joint_properties damping="0.0" friction="1.0"/-->
   </joint>
 
 
